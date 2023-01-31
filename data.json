@@ -1,0 +1,116 @@
+{
+    "productos": [
+    {
+        "id": 1,
+        "nombre": "Remera Azul Braavosi Good",
+        "precio": 3200,
+        "oferta": false,
+        "imagen": "assets/braavosi.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Buzo Verde Polo",
+        "precio": 5429,
+        "oferta": true,
+        "imagen": "assets/buzo-polo.jpg" 
+    }, 
+    {
+        "id": 3,
+        "nombre": "Pantalon Beige Gabucci Gabardo",
+        "precio": 8549,
+        "oferta": false,
+        "imagen": "assets/gabucci-pantalon.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Ojota Blanca Fila Drifter Basic",
+        "precio": 9499,
+        "oferta": true,
+        "imagen": "assets/zapatillas-fila.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Remera Reef long beach",
+        "precio": 5999,
+        "oferta": true,
+        "imagen": "assets/remera-reef.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Levi's Jean celeste",
+        "precio": 34600,
+        "oferta": false,
+        "imagen": "assets/jean-levis.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Buzo Azul Polo Label",
+        "precio": 10699,
+        "oferta": true,
+        "imagen": "assets/buzo-polo-azul.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Zapatillas Adidas Galaxy",
+        "precio": 20999,
+        "oferta": true,
+        "imagen": "assets/zapas-adidas.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Jogging Negro Polo Classic",
+        "precio": 10999,
+        "oferta": false,
+        "imagen": "assets/jogging-polo.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "DC Shoes Manual Negro",
+        "precio": 19499,
+        "oferta": true,
+        "imagen": "assets/dc-shoes-negras.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Remera Negra Stone",
+        "precio": 6049,
+        "oferta": false,
+        "imagen": "assets/remera-negra-stone.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Campera Negra Winterlasse",
+        "precio": 24990,
+        "oferta": true,
+        "imagen": "assets/campera-matertex.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "Campera Roja Wintertex",
+        "precio": 17090,
+        "oferta": false,
+        "imagen": "assets/campera-roja-wintertex.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "Pantalon El Genovés",
+        "precio": 14500,
+        "oferta": true,
+        "imagen": "assets/pantalon-el-genoves.jpg"
+    },
+    {
+        "id": 15,
+        "nombre": "Zapatilla Negra Topper",
+        "precio": 14499,
+        "oferta": false,
+        "imagen": "assets/zapatilla-topper.jpg"
+    },
+    {
+        "id": 16,
+        "nombre": "Remera Azul El Genoves",
+        "precio": 10999,
+        "oferta": true,
+        "imagen": "assets/remera-el-genoves.jpg"
+    }
+]
+} 

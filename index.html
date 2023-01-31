@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>E-Commerce</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">        
+    </head>
+    <body>
+        <nav class="navbar">
+            <h1><a href="index.html">Gotz shop</a></h1>
+            <span id="nav-productos-texto">Productos</span>
+            <div class="nav-botones"> 
+                <button class="carrito-boton">
+                    <img
+                        src="assets/shopping-svgrepo-com.svg"
+                        alt="shopping cart"
+                        class="shopping-cart-svg"
+                        width="32px"
+                        height="32px"
+                    />
+                </button>
+                <button class="interruptor" type="button">
+                    <img src="assets/moon-svgrepo-com.svg" alt="dark-toggle" width="28px" height="28px" class="svg-interruptor">
+                </button>
+            </div>
+        </nav>
+        <hr />
+        <main>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets/bruce-mars-SJ5rJAl6mpA-unsplash.jpg" alt="imagen 1"></div>
+                    <div class="swiper-slide"><img src="assets/force-majeure-00tlC0Clfrs-unsplash.jpg" alt="imagen 2"></div>
+                    <div class="swiper-slide"><img src="assets/ian-dooley-TT-ROxWj9nA-unsplash.jpg" alt="imagen 3"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <hr>
+            <h3 class="productos-destacados">PRODUTOS DESTACADOS</h3>
+            <div class="productos"></div>
+        </main>
+
+        <section class="redes-sociales" id="redes"> 
+            <h1>Siguenos en nuestras redes para saber sobre los últimos lanzamientos</h1>
+            <i class="fa-brands fa-instagram fa-2x"> <span>@Gotz.shop</span></i>
+            <i class="fa-brands fa-twitter fa-2x" style="color: #1DA1F2"> <span>@Gotz_shop</span></i>
+        </section>
+
+        <footer>
+            <div class="lado-izquierdo">
+                <p>Más información</p>
+                <ul>
+                    <li><a href="#redes">Nuestras redes</a></li>
+                </ul>
+            </div>
+            <div class="lado-derecho">
+                <p class="mensaje-contacto">Contactanos en caso de alguna duda: </p>
+                <form>
+                    <label for="nombre">Nombre y apellido:
+                        <br>
+                        <input type="text" name="nombre" id="nombre">
+                    </label>
+                    <label for="email">E-mail:
+                        <br>
+                        <input type="text" name="email" id="email">
+                    </label>
+                    <label for="consulta">Consulta:
+                        <br>
+                        <textarea name="consulta" id="consulta" cols="30" rows="5"></textarea>
+                    </label>
+                    <div class="contacto">
+                        <h4 id="heading-contacto">Contacto:</h4> 
+                        <p>Teléfono: +54 9 11 1234-5678</p>
+                        <p>Dirección: Av. Libertador 1111</p>
+                        <p>E-mail: soporte@gotzshop.com.ar</p>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/cf2a189f0a.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script> 
+        <script src="script.js"></script>
+    </body>
+</html>
